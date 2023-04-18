@@ -1,0 +1,55 @@
+
+.carouselmw{
+    margin-top: 90px;
+}
+
+.content{
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url(../img/bg-carousel.jpg);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.carouselmw .content-left h3{
+    font-size: 50px;
+    line-height: 57.5px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.carouselmw .content-left p{
+    color: var(--text-color);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 450px;
+}
+
+.carouselmw .theme-button{
+    transition: 0.3s ease-out;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+
+.carouselmw .btn-outline-primary{
+    color: #dc4f72;
+    border-color: #dc4f72;
+}
+
+.carouselmw .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
