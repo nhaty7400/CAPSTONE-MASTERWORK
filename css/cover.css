@@ -1,0 +1,29 @@
+.cover__block {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)),
+      url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 480px;
+    display: grid;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .cover .middle__section h2 {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+  
+  .cover .link-list-menu p {
+    font-size: 16px;
+    color: #eee;
+    line-height: 24.5px;
+  }
+  
+  .cover .middle__section {
+    max-width: 550px;
+  }
