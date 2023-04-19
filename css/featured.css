@@ -1,3 +1,6 @@
+
+
+
 ul.resp-tabs-list,
 p {
   margin: 0px;
@@ -29,7 +32,7 @@ p {
   clear: left;
 }
 
-.btn-outline-primary {
+/* .btn-outline-primary {
   color: var(--primary);
   border-color: #dc4f72;
 }
@@ -38,7 +41,7 @@ p {
   color: #fff;
   background-color: var(--primary);
   border-color: var(--primary);
-}
+} */
 
 h2.resp-accordion {
   cursor: pointer;
