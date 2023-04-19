@@ -1,8 +1,12 @@
-root{
+:root{
     --primary:#dc4f72;
     --secondary:#0d5fa8;
     --title-color:#2C3038;
     --text-color:#5a5a5a;
     --light-bg-color: #F7F9FC;
     --bg-color:#fff;
+
+    --card-curve:6px;
+    --card-hover-box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+    --transformY:translateY(-0.5rem);
 }

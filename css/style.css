@@ -1,7 +1,16 @@
-@import url(reset.css);
+/* code dùng chung */
 @import url(variables.css);
+
+@import url(reset.css);
+
+/* code dùng riêng */
+
 @import url(header.css);
+
 @import url(carouselMw.css);
+
 @import url(whychoose.css);
+
 @import url(about.css);
+
 @import url(numberMw.css);
