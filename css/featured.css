@@ -32,17 +32,6 @@ p {
   clear: left;
 }
 
-/* .btn-outline-primary {
-  color: var(--primary);
-  border-color: #dc4f72;
-}
-
-.btn-outline-primary:hover {
-  color: #fff;
-  background-color: var(--primary);
-  border-color: var(--primary);
-} */
-
 h2.resp-accordion {
   cursor: pointer;
   padding: 5px;
