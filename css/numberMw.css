@@ -1,0 +1,35 @@
+.numberMw{
+    background: var(--light-bg-color);
+}
+
+.numberMw .numberMw__item{
+    background-color: var(--bg-color);
+    padding: 2rem;
+    border-radius: var(--card-curve);
+    box-shadow: var(--card-box-shadow);
+    transition: 0.3s ease;
+    border: 1px solid var(--border-color-light);
+}
+
+.numberMw .numberMw__item:hover{
+    box-shadow: var(--card-hover-box-shadow);
+    transition: 0.3s ease;
+}
+
+.numberMw .numberMw__item h4{
+    font-size: 16px;
+    line-height: 24.5px;
+    text-transform: capitalize;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.numberMw .numberMw__item p.counter{
+    font-size: 50px;
+    line-height: 1;
+    color: var(--primary);
+    margin-bottom: 0;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}

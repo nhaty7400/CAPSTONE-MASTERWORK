@@ -109,9 +109,28 @@ a {
     background-color: transparent;
 }
 
-a,
-a:hover {
+a,a:hover {
     text-decoration: none;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+}
+
+img.img-curve {
+    border-radius: var(--card-curve);
+    transition: 0.3s ease-in-out;
+}
+
+img.shadow {
+    box-shadow: var(--card-hover-box-shadow);
 }
 
 
