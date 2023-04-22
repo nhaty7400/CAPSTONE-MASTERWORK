@@ -33,8 +33,8 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
-    <header class="main-header fixed-top">
+<body id="myBody">
+    <header class="header main-header fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg px-0 pt-lg-0">
                 <h1>
@@ -45,10 +45,9 @@
                         </span>
                     </a>
                 </h1>
-                <button class="navbar-toggler collapse" type="button" data-toggle="collapse"
-                    data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars"></i>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-content">
                     <ul class="navbar-nav ml-lg-auto">
@@ -79,17 +78,12 @@
                     <div class="header__button mr-lg-3 mt-lg-0">
                         <a href="#" class="btn btn-outline-primary theme-button">schedule a demo</a>
                     </div>
-                    <div class="darkAndLight">
-                        <nav>
-                            <div class="theme-switch-wrapper"><label class="theme-switch" for="checkbox">
-                                    <input type="checkbox" id="switch">
-                                    <div class="mode-container">
-                                        <i class="far fa-moon"></i>
-                                        <i class="far fa-sun"></i>
-                                    </div>
-                                </label></div>
-                        </nav>
-                    </div>
+                </div>
+                <div class="header__theme">
+                    <button id="switchButton">
+                        <i class="far fa-moon"></i>
+                        <i class="far fa-sun"></i>
+                    </button>
                 </div>
             </nav>
         </div>
@@ -204,6 +198,9 @@
     <section class="cta"></section>
     <footer></footer>
     <!-- BACK TO TOP -->
+    <a href="#" class="backtotop cd-top text-replace js-cd-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </a>
 
 
 
@@ -244,6 +241,12 @@
     <!-- BACK TO TOP -->
     <script src="./js/main.js"></script>
     <script src="./js/util.js"></script>
+
+    <!-- DARK THEME -->
+    <script src="./js/darkTheme.js"></script>
+
+    <!-- NAVBAR SCROLL -->
+    <script src="./js/scrollNavbar.js"></script>
 </body>
 
 </html>
