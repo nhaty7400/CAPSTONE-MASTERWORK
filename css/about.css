@@ -1,0 +1,33 @@
+.about{
+    background: var(--light-bg-color);
+}
+
+.about h3{
+    font-size: 35px;
+    line-height: 40px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.about p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: var(--text-color);
+    line-height: 24.4px;
+}
+
+
+/* DARK THEME */
+
+.dark .about{
+    background: var(--light-bg-color-dark);
+}
+
+.dark .about h3{
+    color: var(--title-color-dark);
+}
+
+.dark .about p{
+    color: var(--text-color-dark);
+}
