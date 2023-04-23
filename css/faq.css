@@ -183,6 +183,18 @@
   cursor: pointer;
   color: var(--title-color-dark);
 }
+.dark .faq .w3l-faq p {
+  color: var(--text-color-dark);
+  font-size: 16px;
+  line-height: 24.5px;
+  position: relative;
+  overflow: hidden;
+  max-height: 800px;
+  opacity: 1;
+  transform: translate(0, 0);
+  margin-top: 14px;
+  z-index: 2;
+}
 .dark .faq .w3l-faq ul li i:before,
 .dark .faq .w3l-faq ul li i:after {
   content: "";
