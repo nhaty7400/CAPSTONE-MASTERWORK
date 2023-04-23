@@ -209,12 +209,12 @@ header .navbar-toggler i {
         padding: 10px 0;
     }
 
-    .header__theme {
-        display: none;
-    }
-
     .header__theme__mobile {
         display: block;
+    }
+    
+    .header__theme {
+        display: none;
     }
 
     header .wrapper {
