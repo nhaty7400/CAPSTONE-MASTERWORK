@@ -211,6 +211,8 @@ header .navbar-toggler i {
 
     .navbar .header__theme__mobile {
         display: block;
+        vertical-align: bottom;
+        position: relative;
     }
     
     .header__theme {
@@ -218,9 +220,9 @@ header .navbar-toggler i {
     }
 
     header .wrapper {
-        width: 80px;
+        width: 70px;
         display: flex;
-        justify-content:space-around;
+        justify-content:space-between;
     }
 
     #switchButton2 i {
@@ -233,6 +235,13 @@ header .navbar-toggler i {
 
     #switchButton2 .fa-sun {
         display: none;
+    }
+
+    #switchButton2{
+        background-color: transparent;
+        border: transparent;
+        position: absolute;
+        bottom: 0;
     }
 
     .dark #switchButton2 .fa-moon {
