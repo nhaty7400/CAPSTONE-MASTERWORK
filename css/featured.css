@@ -1,6 +1,4 @@
 
-
-
 ul.resp-tabs-list,
 p {
   margin: 0px;
@@ -100,4 +98,38 @@ h2.resp-tab-title:last-child {
 
 .feature .products-content {
   margin: 20px 0;
+}
+
+.dark .feature{
+  background-color: var( --bg-color-dark);
+}
+.dark .resp-tabs-list li {
+  font-weight: 700;
+  font-size: 22px;
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  float: left;
+  width: 33.333%;
+  text-align: center;
+  color: var(--title-color-dark);
+  background: var(--bg-color-dark) !important;
+  border-bottom: 3px solid var(--border-color-dark);
+}
+.dark .products-content{
+  background-color: var(--bg-color-dark);
+}
+.dark .feature .products-content h3 {
+  color: var(--title-color-dark);
+  margin-bottom: 16px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.dark .feature .products-content p {
+  color: var(--text-color-dark);
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24.5px;
 }

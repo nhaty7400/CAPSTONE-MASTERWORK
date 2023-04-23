@@ -1,6 +1,8 @@
 
 
-
+.fa-quote-left:before {
+  content: "";
+}
 .testimonials {
   background: linear-gradient(to right, var(--bg-color), rgba(255, 255, 255, 0.77)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/b2.jpg);
   background-size: cover;
@@ -352,4 +354,51 @@ button.owl-next {
   button.owl-prev {
     bottom: 75%;
   }
+}
+
+.dark .testimonials {
+  background: linear-gradient(to right, var(--bg-color-dark), rgba(255, 255, 255, 0.77)), url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/b2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.dark .w3l__testimonials .slider-info {
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 50px;
+  background-color: var(--bg-color-dark);
+  border-radius: var(--card-curve);
+}
+.dark .w3l__testimonials .message p {
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--title-color-dark);
+}
+.dark .w3l__testimonials .message span {
+  font-size: 30px;
+  color: var(--text-color-dark);
+  opacity: 0.2;
+  position: absolute;
+  top: 0px;
+  left: -40px;
+  right: 0;
+}
+.dark .owl-theme .owl-dots .owl-dot span {
+  width: 40px;
+  height: 5px;
+  margin: 5px 5px;
+  background: var(--bg-color-dark);
+  display: block;
+  border: none;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 0;
+  position: relative;
+}
+.dark .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--primary);
 }

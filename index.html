@@ -31,16 +31,64 @@
 
     <!-- STYLE CSS  -->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/cover.css">
-    <link rel="stylesheet" href="./css/faq.css">
-    <link rel="stylesheet" href="./css/featured.css">
-    <link rel="stylesheet" href="./css/cta.css">
-    <link rel="stylesheet" href="./css/footer.css">
     
 </head>
 
-<body>
-    <header></header>
+<body id="myBody">
+    <header class="header main-header fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg px-0 pt-lg-0">
+                <h1>
+                    <a class="navbar__logo" href="#header">
+                        <span>
+                            <i class="fa-regular fa-handshake"></i>
+                            Masterwork
+                        </span>
+                    </a>
+                </h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><span>Pages
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="header__search mr-lg-3">
+                        <a href="#search" title="search">
+                            <span class="fa fa-search" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <div class="header__button mr-lg-3 mt-lg-0">
+                        <a href="#" class="btn btn-outline-primary theme-button">schedule a demo</a>
+                    </div>
+                </div>
+                <div class="header__theme">
+                    <button id="switchButton">
+                        <i class="far fa-moon"></i>
+                        <i class="far fa-sun"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
     <section class="carouselmw"></section>
     <section class="whychoose"></section>
     <section class="about"></section>
@@ -614,6 +662,9 @@
     <!-- BACK TO TOP -->
     <script src="./js/main.js"></script>
     <script src="./js/util.js"></script>
+
+    <!-- Dark Theme -->
+    <script src="./js/darkTheme.js"></script>
 
 </body>
 
