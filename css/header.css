@@ -209,7 +209,7 @@ header .navbar-toggler i {
         padding: 10px 0;
     }
 
-    .header__theme__mobile {
+    .navbar .header__theme__mobile {
         display: block;
     }
     
@@ -218,13 +218,13 @@ header .navbar-toggler i {
     }
 
     header .wrapper {
+        width: 80px;
         display: flex;
-        justify-content: space-between;
-        vertical-align: center;
+        justify-content:space-around;
     }
 
     #switchButton2 i {
-        font-size: 22px;
+        font-size: 23px;
     }
 
     #switchButton2 .fa-moon {
