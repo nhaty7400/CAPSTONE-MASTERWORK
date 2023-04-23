@@ -45,10 +45,21 @@
                         </span>
                     </a>
                 </h1>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbar-content" aria-expanded="false" aria-label="Toggle navigation">
-                    <span><i class="fa-solid fa-bars"></i></span>
-                </button>
+
+                <div class="wrapper">
+                    <div class="header__theme__mobile">
+                        <button id="switchButton2">
+                            <i class="far fa-moon"></i>
+                            <i class="far fa-sun"></i>
+                        </button>
+                    </div>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                        data-target="#navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fa-solid fa-bars"></i></span>
+                    </button>
+                </div>
+
+
                 <div class="collapse navbar-collapse" id="navbar-content">
                     <ul class="navbar-nav ml-lg-auto">
                         <li class="nav-item active">
@@ -60,7 +71,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Services</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" id="pages">
                             <a class="nav-link" href="#"><span>Pages
                                     <i class="fa-solid fa-angle-down"></i>
                                 </span>

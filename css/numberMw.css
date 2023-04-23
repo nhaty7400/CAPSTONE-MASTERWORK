@@ -1,8 +1,8 @@
-.numberMw{
+.numberMw {
     background: var(--light-bg-color);
 }
 
-.numberMw .numberMw__item{
+.numberMw .numberMw__item {
     background-color: var(--bg-color);
     padding: 2rem;
     border-radius: var(--card-curve);
@@ -11,12 +11,12 @@
     border: 1px solid var(--border-color-light);
 }
 
-.numberMw .numberMw__item:hover{
+.numberMw .numberMw__item:hover {
     box-shadow: var(--card-hover-box-shadow);
     transition: 0.3s ease;
 }
 
-.numberMw .numberMw__item h4{
+.numberMw .numberMw__item h4 {
     font-size: 16px;
     line-height: 24.5px;
     text-transform: capitalize;
@@ -24,7 +24,7 @@
     font-weight: 700;
 }
 
-.numberMw .numberMw__item p.counter{
+.numberMw .numberMw__item p.counter {
     font-size: 50px;
     line-height: 1;
     color: var(--primary);
@@ -32,4 +32,30 @@
     font-weight: 700;
     margin-bottom: 15px;
     margin-top: 10px;
+}
+
+
+/* DARK THEME */
+
+.dark .numberMw {
+    background: var(--light-bg-color-dark);
+}
+
+.dark .numberMw .numberMw__item {
+    background-color: var(--bg-color-dark);
+    border: 1px solid var(--border-color-light-dark);
+}
+
+.dark .numberMw .numberMw__item h4 {
+    color: var(--title-color-dark);
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:992px) {
+    .numberMw .numberMw__item p.counter {
+        font-size: 40px;
+        line-height: 50px;
+    }
 }

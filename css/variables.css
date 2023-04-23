@@ -14,6 +14,7 @@
     --transformY:translateY(-0.5rem);
 
     /* DARK THEME COLOR */
+    --primary-dark:#dc4f72;
     --bg-color-dark:#131617;
     --title-color-dark:#eee;
     --text-color-dark:#b7b7b7;

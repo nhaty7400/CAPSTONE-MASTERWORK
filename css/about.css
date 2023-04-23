@@ -16,3 +16,18 @@
     color: var(--text-color);
     line-height: 24.4px;
 }
+
+
+/* DARK THEME */
+
+.dark .about{
+    background: var(--light-bg-color-dark);
+}
+
+.dark .about h3{
+    color: var(--title-color-dark);
+}
+
+.dark .about p{
+    color: var(--text-color-dark);
+}

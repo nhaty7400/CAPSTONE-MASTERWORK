@@ -1,9 +1,8 @@
-
-.carouselmw{
+.carouselmw {
     margin-top: 90px;
 }
 
-.content{
+.content {
     background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0.92)), url(../img/bg-carousel.jpg);
     position: relative;
     z-index: 1;
@@ -17,14 +16,14 @@
     padding-top: 5rem;
 }
 
-.carouselmw .content__left h3{
+.carouselmw .content__left h3 {
     font-size: 50px;
     line-height: 57.5px;
     color: var(--title-color);
     font-weight: 700;
 }
 
-.carouselmw .content__left p{
+.carouselmw .content__left p {
     color: var(--text-color);
     font-size: 20px;
     line-height: 28px;
@@ -34,3 +33,28 @@
 
 
 /* DARK THEME */
+
+.dark .content {
+    background: linear-gradient(to right, var(--bg-color-dark), rgba(255, 255, 255, 0.92)), url(../img/bg-carousel.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.dark .carouselmw .content__left h3 {
+    color: var(--title-color-dark);
+}
+
+.dark .carouselmw .content__left p {
+    color: var(--text-color-dark);
+}
+
+
+/* RESPONSIVE */
+@media screen and (max-width:568px) {
+    .carouselmw .content__left h3 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}
