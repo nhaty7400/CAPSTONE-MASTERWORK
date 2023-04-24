@@ -38,7 +38,11 @@ header.nav-fixed {
     position: relative;
 }
 
-a.nav-link::before{
+.navbar .header__theme__mobile {
+    display: none;
+}
+
+a.nav-link::before {
     position: absolute;
     content: '';
     background: var(--primary);
@@ -48,7 +52,7 @@ a.nav-link::before{
     transition: all .5s;
 }
 
-.nav-link:hover::before{
+.nav-link:hover::before {
     width: 20px;
 }
 
@@ -61,7 +65,7 @@ a.nav-link::before{
     color: var(--title-color);
 }
 
-#navbar-content .nav-item .nav-link:hover{
+#navbar-content .nav-item .nav-link:hover {
     color: var(--primary);
 }
 
@@ -74,6 +78,23 @@ a.nav-link::before{
     margin-bottom: -3px;
     vertical-align: middle;
 }
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding: 0 15px;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+#navbar-content #pages {
+    padding-right: 20px;
+}
+
+#navbar-content #pages i {
+    font-size: 12px;
+    top: 21px;
+    right: 5px;
+    display: inline-block;
+    position: absolute;
+}
 
 
 header .header__search {
@@ -82,7 +103,7 @@ header .header__search {
     grid-template-columns: auto 1fr;
 }
 
-.header__search a span.fa{
+.header__search a span.fa {
     color: var(--text-color);
     font-size: 15px;
     opacity: .7;
@@ -95,31 +116,32 @@ header .header__search {
     border: 1px solid var(--border-color);
 }
 
-.header__search a span.fa:hover{
+.header__search a span.fa:hover {
     color: var(--title-color);
     opacity: 1;
 }
 
-#switchButton{
+#switchButton {
     background-color: transparent;
     border: none;
     color: var(--title-color);
     outline: none;
 }
 
-#switchButton i{
+
+#switchButton i {
     font-size: 22px;
 }
 
-#switchButton .fa-moon{
+#switchButton .fa-moon {
     display: block;
 }
 
-#switchButton .fa-sun{
+#switchButton .fa-sun {
     display: none;
 }
 
-header .navbar-toggler{
+header .navbar-toggler {
     width: 36px;
     height: 36px;
     line-height: 1.2em;
@@ -131,37 +153,121 @@ header .navbar-toggler{
     padding: 0;
 }
 
-header .navbar-toggler i{
+header .navbar-toggler i {
     vertical-align: middle;
 }
 
 
 /* DARK THEME */
 
-.dark header.main-header{
+.dark header.main-header {
     background-color: var(--bg-color-dark);
 }
 
-.dark #switchButton .fa-moon{
+.dark #switchButton .fa-moon {
     display: none;
 }
 
-.dark #switchButton .fa-sun{
+.dark #switchButton .fa-sun {
     display: block;
     color: var(--title-color-dark);
 }
 
-.dark #navbar-content .nav-item .nav-link{
+
+.dark #navbar-content .active.nav-item .nav-link {
+    color: var(--primary-dark);
+}
+
+.dark #navbar-content .nav-item .nav-link {
     color: var(--title-color-dark);
 }
 
-.dark .nav-fixed #navbar-content .nav-item .nav-link{
+.dark #navbar-content .nav-item .nav-link:hover {
+    color: var(--primary-dark);
+}
+
+.dark .nav-fixed #navbar-content .nav-item .nav-link {
     color: var(--text-color-dark);
     opacity: 0.95;
 }
 
-.dark .header__search a span.fa{
+.dark .nav-fixed #navbar-content .active .nav-link {
+    color: var(--primary-dark);
+}
+
+.dark .header__search a span.fa {
     color: var(--text-color-dark);
     background: var(--light-bg-color-dark);
     border: 1px solid var(--border-color-dark);
+}
+
+.dark .header__search a span.fa:hover {
+    color: var(--title-color-dark);
+}
+
+.dark .nav-fixed #switchButton .fa-sun {
+    color: var(--text-color-dark);
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:991px) {
+    header.main-header {
+        height: auto;
+        padding: 15px 0;
+    }
+
+    header.nav-fixed {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .navbar .header__theme__mobile {
+        display: block;
+    }
+    
+    .header__theme {
+        display: none;
+    }
+
+    header .wrapper {
+        width: 80px;
+        display: flex;
+        justify-content:space-around;
+    }
+
+    #switchButton2 i {
+        font-size: 23px;
+    }
+
+    #switchButton2 .fa-moon {
+        display: block;
+    }
+
+    #switchButton2 .fa-sun {
+        display: none;
+    }
+
+    .dark #switchButton2 .fa-moon {
+        display: none;
+    }
+
+    .dark #switchButton2 .fa-sun {
+        display: block;
+        color: var(--title-color-dark);
+    }
+
+    #navbar-content ul{
+        padding: 20px 0;
+    }
+
+    #navbar-content .nav-item .nav-link {
+        padding: 8px 0;
+        text-align: center;
+    }
+
+    a.nav-link::before{
+        bottom: 5px;
+    }
 }
