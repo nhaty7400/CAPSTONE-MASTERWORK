@@ -144,7 +144,6 @@ header .header__search {
 header .navbar-toggler {
     width: 36px;
     height: 36px;
-    line-height: 1.2em;
     color: #fff;
     line-height: 34px;
     background-color: var(--primary);
@@ -254,7 +253,7 @@ header .navbar-toggler i {
         background-color: transparent;
         border: transparent;
         position: absolute;
-        bottom: 0;
+        bottom: 2px;
     }
 
     .dark #switchButton2 .fa-moon {
