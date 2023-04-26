@@ -6,8 +6,12 @@
     --text-color:#5a5a5a;
     --light-bg-color: #F7F9FC;
     --bg-color:#fff;
+    --border-color-light: #f8f9fa;
+    --card-curve: 6px;
+    --border-color: #eee;
 
 
+    --iframe-filter: grayscale(0%);
     --card-curve:6px;
     --card-box-shadow:1px 5px 7.5px rgba(14, 13, 13, 0.2);
     --card-hover-box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.09);
@@ -20,4 +24,15 @@
     --text-color-dark:#b7b7b7;
     --light-bg-color-dark:#191c1d;
     --border-color-dark:#333;
+}
+.dark{
+    --primary: #dc4f72;
+    --title-color: #eee;
+    --text-color: #b7b7b7;
+    --bg-lightgrey: #191c1d;
+    --border-color: #333;
+    --bg-color-light: #131617;
+    --bg-color: #131617;
+    --iframe-filter: grayscale(100%);
+    --light-bg-color: #191c1d;
 }
