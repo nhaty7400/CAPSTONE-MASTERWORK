@@ -291,13 +291,13 @@ body{
 }
 
 /* Responsive header-section h3*/
+@media (max-width: 800px){
+    .header-section h3 {
+        font-size: 40px;
+        line-height: 50px;
+}}
 @media (max-width: 667px){
 .header-section h3 {
     font-size: 32px;
     line-height: 42px;
-}}
-@media (max-width: 800px){
-.header-section h3 {
-    font-size: 40px;
-    line-height: 50px;
 }}
