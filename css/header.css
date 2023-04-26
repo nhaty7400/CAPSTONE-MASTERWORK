@@ -1,3 +1,4 @@
+
 header.main-header {
     background-color: var(--bg-color);
     padding: 0px;
@@ -29,6 +30,12 @@ header.nav-fixed {
     text-transform: capitalize;
     color: var(--primary);
     letter-spacing: -1px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding: 0 15px;
+    transition: all 0.5s ease;
+    position: relative;
 }
 
 .navbar .header__theme__mobile {
@@ -66,6 +73,11 @@ a.nav-link::before {
     color: var(--primary);
 }
 
+#navbar-content .nav-item .nav-link i{
+    font-size: 12px;
+    margin-bottom: -3px;
+    vertical-align: middle;
+}
 .navbar-expand-lg .navbar-nav .nav-item {
     padding: 0 15px;
     transition: all 0.5s ease;
@@ -116,6 +128,7 @@ header .header__search {
     outline: none;
 }
 
+
 #switchButton i {
     font-size: 22px;
 }
@@ -159,6 +172,7 @@ header .navbar-toggler i {
     display: block;
     color: var(--title-color-dark);
 }
+
 
 .dark #navbar-content .active.nav-item .nav-link {
     color: var(--primary-dark);

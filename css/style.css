@@ -1,3 +1,5 @@
+
+
 /* code dùng chung */
 @import url(variables.css);
 
@@ -16,3 +18,9 @@
 @import url(numberMw.css);
 
 @import url(backtotop.css);
+
+@import url("cover.css");
+@import url("faq.css");
+@import url("featured.css");
+@import url("cta.css");
+@import url("footer.css");
