@@ -58,3 +58,9 @@
         line-height: 45px;
     }
 }
+
+@media screen and (max-width:375px) {
+    .carouselmw .content__left h3 {
+        font-size: 35px;
+    }
+}
